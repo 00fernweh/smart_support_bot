@@ -3,16 +3,16 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-# Root endpoint
+# GET-Endpunkt für die Startseite
 @app.get("/")
 def read_root():
-    return {"message": "Merhaba! Smart Support Bot API'sine hos geldiniz."}
+    return {"message": "Willkommen bei der Smart Support Bot API!"}
 
-# Veri modeli
+# Datenmodell für die Anfrage
 class Question(BaseModel):
     question: str
 
-# Yeni POST endpoint
+# POST-Endpunkt zur Annahme von Benutzerfragen
 @app.post("/ask")
 def ask_question(item: Question):
-    return {"response": f"Sorunuz alindi: '{item.question}'"}
+    return {"response": f"Frage empfangen: '{item.question}'"}
