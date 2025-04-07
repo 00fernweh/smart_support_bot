@@ -22,7 +22,7 @@ for block in raw_data:
         answers.append(a)
 
 # Einbettungsmodell laden
-model = SentenceTransformer("distiluse-base-multilingual-cased-v1")
+model = SentenceTransformer("all-mpnet-base-v2")
 
 # Vektor-Repräsentationen für die Fragen berechnen
 embeddings = model.encode(questions)

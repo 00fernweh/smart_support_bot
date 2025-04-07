@@ -12,3 +12,7 @@ Antwort: Predictive Maintenance reduziert Ausfallzeiten und verlängert die Leben
 
 Frage: Was ist der Unterschied zwischen einem Sensor und einem Aktor?
 Antwort: Sensoren erfassen physikalische Größen, Aktoren setzen elektrische Signale in physikalische Bewegung um.
+
+Frage: Wo bist du ?
+Antwort: Kairo.
+
