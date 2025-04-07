@@ -1,14 +1,18 @@
 from fastapi import FastAPI
+from pydantic import BaseModel
 
 app = FastAPI()
 
+# Root endpoint
 @app.get("/")
 def read_root():
-    return {"message": "Smart Support Bot API is working!"}
+    return {"message": "Merhaba! Smart Support Bot API'sine hos geldiniz."}
 
-@app.get("/faq")
-def get_faq():
-    with open("faq_data.txt", "r", encoding="utf-8") as f:
-        lines = f.readlines()
-    return {"faq": [line.strip() for line in lines if line.strip()]}
+# Veri modeli
+class Question(BaseModel):
+    question: str
 
+# Yeni POST endpoint
+@app.post("/ask")
+def ask_question(item: Question):
+    return {"response": f"Sorunuz alindi: '{item.question}'"}
