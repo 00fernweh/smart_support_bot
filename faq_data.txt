@@ -1,0 +1,14 @@
+Frage: Wie funktioniert ein Frequenzumrichter?
+Antwort: Ein Frequenzumrichter wandelt Wechselstrom in eine variable Frequenz um, um die Motordrehzahl zu steuern.
+
+Frage: Was bedeutet SPS in der Automatisierung?
+Antwort: SPS steht für Speicherprogrammierbare Steuerung und dient zur Steuerung industrieller Prozesse.
+
+Frage: Wie kann man ein SCADA-System in eine bestehende Anlage integrieren?
+Antwort: Die Integration erfolgt über Schnittstellen zu vorhandenen Steuerungen und Protokollen wie Modbus oder OPC UA.
+
+Frage: Welche Vorteile bietet die vorausschauende Wartung?
+Antwort: Predictive Maintenance reduziert Ausfallzeiten und verlängert die Lebensdauer von Maschinen durch datenbasierte Analyse.
+
+Frage: Was ist der Unterschied zwischen einem Sensor und einem Aktor?
+Antwort: Sensoren erfassen physikalische Größen, Aktoren setzen elektrische Signale in physikalische Bewegung um.

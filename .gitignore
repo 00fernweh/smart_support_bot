@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.pt
+*.bin
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# VSCode
+.vscode/
+
+# Model Cache (HuggingFace, etc.)
+.cache/
+.huggingface/
+
+# Streamlit
+.streamlit/
+
+# MacOS
+.DS_Store
